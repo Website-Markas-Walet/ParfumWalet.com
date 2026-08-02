@@ -1,0 +1,59 @@
+{
+  "site": {
+    "id": "parfumwalet",
+    "domain": "https://parfumwalet.com",
+    "repo": "Website-Markas-Walet/ParfumWalet.com",
+    "production_branch": "main",
+    "language": "id",
+    "rendering": "static-html",
+    "cms_origin": "WordPress export (theme Kadence)"
+  },
+  "analytics": {
+    "gtm": "GTM-K8F59DT",
+    "ga4": null,
+    "tiktok": null,
+    "facebook_pixel": null,
+    "adsense": null,
+    "note": "Hanya Google Tag Manager (GTM-K8F59DT) yang terpasang, di 118 halaman. Tidak ditemukan GA4/TikTok/FB Pixel/AdSense langsung."
+  },
+  "brand": {
+    "palette": {
+      "primary": "#e1bb48",
+      "primary_alt": "#d1a51d",
+      "black": "#000000",
+      "dark_navy": "#041329",
+      "gray": "#4a5568"
+    },
+    "fonts": { "body": "Work Sans", "heading": "Poppins" },
+    "logo": [
+      "/wp-content/uploads/2021/07/cropped-logo-parfumwalet.png",
+      "/wp-content/uploads/2021/05/cropped-logo-parfum-walet.png",
+      "/wp-content/uploads/2021/08/logo-NH3X.png"
+    ],
+    "favicon": [
+      "/wp-content/uploads/2021/07/cropped-favicon-32x32.png",
+      "/wp-content/uploads/2021/07/cropped-favicon-192x192.png",
+      "/wp-content/uploads/2021/07/cropped-favicon-180x180.png (apple-touch-icon)"
+    ]
+  },
+  "menu_utama": [
+    { "label": "Home", "url": "/", "order": 1 },
+    { "label": "Jangkauan Pengiriman", "url": "/jangkauan-pengiriman", "order": 2 },
+    { "label": "Kontak", "url": "/kontak", "order": 3 }
+  ],
+  "menu_jaringan": {
+    "present": false,
+    "note": "Tidak ada menu jaringan/ekosistem lintas-brand di parfumwalet.com saat ini."
+  },
+  "kontak": {
+    "alamat": "Mulyosari Tengah No. 97 F, Kel. Kalisari, Kec. Mulyorejo, Kota Surabaya, Jawa Timur",
+    "telepon": "0877 2526 0196",
+    "email": "sales@markaswalet.com",
+    "link_kontak": "https://con.tact.my.id/fairuz-0196-parfumwaletcom",
+    "whatsapp": "via con.tact.my.id (tidak ada wa.me langsung di markup)",
+    "sosial": {
+      "facebook": "https://www.facebook.com/markaswalet/",
+      "youtube": "https://www.youtube.com/channel/UCUV9bwNP8x8tsWXUKbf3ugA"
+    }
+  }
+}

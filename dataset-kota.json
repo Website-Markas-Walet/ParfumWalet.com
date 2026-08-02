@@ -1,0 +1,8 @@
+{
+  "dataset": "kota",
+  "site": "parfumwalet.com",
+  "template_page": "parfum-walet-{kota}.html",
+  "note": "102 kota. 2 file berprefix parfum-walet- BUKAN kota (burung-walet-betah, kunci-produktivitas-sarang-walet-meroket) dikategorikan sebagai artikel.",
+  "count": 102,
+  "kota_slugs": ["ambon","balikpapan","banda-aceh","bandar-lampung","bandung","banjar","banjarbaru","banjarmasin","batam","batang","batu","bau-bau","bekasi","bengkulu","bima","binjai","bitung","blitar","blora","bogor","bojonegoro","bontang","boyolali","brebes","bukit-tinggi","cilacap","cilegon","cimahi","cirebon","denpasar","depok","dumai","gorontalo","gresik","jakarta-barat","jakarta-pusat","jakarta-selatan","jakarta-timur","jakarta-utara","jambi","jayapura","jepara","kediri","kepulauan-seribu","kudus","kupang","lamongan","langsa","lhokseumawe","lubuklinggau","lumajang","madiun","magelang","magetan","makassar","malang","manado","mataram","medan","metro","mojokerto","nganjuk","ngawi","pacitan","padang-sidempuan","padang","palangkaraya","palembang","palopo","palu","pangkalpinang","parepare","pasuruan","pati","pekalongan","pekanbaru","pematangsiantar","pontianak","prabumulih","probolinggo","salatiga","samarinda","semarang","serang","sidoarjo","singkawang","solo","sorong","sukabumi","surabaya","surakarta","tangerang-selatan","tangerang","tanjungbalai","tanjungpinang","tarakan","tasikmalaya","tebingtinggi","tegal","ternate","tuban","yogyakarta"]
+}
