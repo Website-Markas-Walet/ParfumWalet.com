@@ -1,0 +1,29 @@
+{
+  "site": "parfumwalet.com",
+  "canonical_domain": "https://parfumwalet.com",
+  "url_form": {
+    "home": "/",
+    "content_pages": "/{slug}.html",
+    "directory_pages": "/{slug}  (dilayani dari /{slug}/index.html, tanpa .html)",
+    "note": "Link internal dikonfirmasi memakai bentuk /{slug}.html untuk halaman konten (mis. /parfum-walet-medan.html), '/' untuk home, dan /kontak & /jangkauan-pengiriman untuk halaman folder. Semua root-relative."
+  },
+  "quirks": [
+    "Halaman konten pakai ekstensi .html (BUKAN folder/trailing-slash), kecuali 2 halaman utilitas yang berbentuk folder (/kontak, /jangkauan-pengiriman).",
+    "2 file berprefix 'parfum-walet-' BUKAN kota: 'parfum-walet-burung-walet-betah.html' dan 'parfum-walet-kunci-produktivitas-sarang-walet-meroket.html' — ini artikel, bukan dataset kota.",
+    "canonical & og:url masih menunjuk domain staging qsandbox.me (perlu dinormalkan ke parfumwalet.com).",
+    "Tidak ada sitemap.xml / robots.txt sebelumnya (disediakan di PR ini)."
+  ],
+  "patterns": [
+    { "type": "home",        "pattern": "/",                                  "count": 1,   "dataset": null },
+    { "type": "kota",        "pattern": "/parfum-walet-{kota}.html",          "count": 102, "dataset": "kota" },
+    { "type": "artikel",     "pattern": "/walet-untuk-{kondisi}.html",        "count": 23,  "dataset": null },
+    { "type": "desain",      "pattern": "/rumah-walet-{ukuran_atau_material}.html", "count": 17, "dataset": null },
+    { "type": "artikel",     "pattern": "/hama-{jenis}-walet.html",           "count": 4,   "dataset": null },
+    { "type": "artikel",     "pattern": "/proses-sarang-walet-{warna}.html",  "count": 2,   "dataset": null },
+    { "type": "artikel",     "pattern": "/manfaat-sarang-walet.html",         "count": 1,   "dataset": null },
+    { "type": "artikel",     "pattern": "/parfum-walet-{slug}.html (non-kota)", "count": 2, "dataset": null },
+    { "type": "page",        "pattern": "/kontak",                            "count": 1,   "dataset": null },
+    { "type": "page",        "pattern": "/jangkauan-pengiriman",              "count": 1,   "dataset": null }
+  ],
+  "total_pages": 154
+}

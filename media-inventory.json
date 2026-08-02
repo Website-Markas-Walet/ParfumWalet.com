@@ -1,0 +1,19 @@
+{
+  "site": "parfumwalet.com",
+  "local_images": {
+    "count": 435,
+    "root": "wp-content/uploads/",
+    "note": "208 PNG + 207 JPG + 20 JPEG. Banyak oversized (PNG s/d 8.6MB) & duplikat ukuran responsif WP."
+  },
+  "external_hotlinks": {
+    "note": "Perlu di-rehome ke R2 (cdn.markaswalet.id). Youtube = embed video (biarkan). Gravatar = avatar komentar. 24 URL unik dipakai berulang di 151 halaman.",
+    "by_host": {
+      "1.bp.blogspot.com": 151,
+      "blogger.googleusercontent.com": 77,
+      "0.gravatar.com": 36,
+      "3.bp.blogspot.com": 36,
+      "4.bp.blogspot.com": 36
+    },
+    "unique_url_count": 24
+  }
+}
